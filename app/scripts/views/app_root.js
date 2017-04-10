@@ -1,11 +1,11 @@
 import React from 'react'
-import app from '../app.js'
+import BlogComponent from './blog_component'
 
 export default React.createClass({
   render: function () {
     return (
       (<main>
-        <Content />
+        <BlogComponent/>
       </main>)
     );
   }
