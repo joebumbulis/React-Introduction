@@ -1,11 +1,12 @@
 import React from 'react'
+import app from '../app.js'
 
 export default React.createClass({
   render: function () {
     return (
-      <section>
-        <h1>Whoa!</h1>
-      </section>
+      (<main>
+        <Content />
+      </main>)
     );
   }
 });
