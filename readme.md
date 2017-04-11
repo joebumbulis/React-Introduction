@@ -1,6 +1,8 @@
 # Day 31: TIY FEE
 ## Introduction to React
 
+(View the Project Live Here)[http://joebum-day-31-react.intro.surge.sh/]
+
 ## Explorer Mode
 
 Using a fresh clone of the webpack-starter, do the following
