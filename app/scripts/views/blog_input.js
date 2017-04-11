@@ -8,8 +8,10 @@ export default React.createClass({
   // },
   render: function(){
     return <aside>
-    <input type="text" />
-    <textarea rows="10" cols="50" />
+    <input type="text" placeholder="blog title"/>
+    <textarea rows="30" cols="20" placeholder="blog body" />
+    <button type="button" >POST</button>
+
     </aside>
   }
 })

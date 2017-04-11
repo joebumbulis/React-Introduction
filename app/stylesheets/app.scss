@@ -1,20 +1,78 @@
-$big-font: 15rem;
-
-.jumbo {
-    color: #333;
-    font-size: $big-font;
-    margin: 0;
-    text-shadow: 1px 2px 1px #DEDEDE, 2px 3px 0 #FEFEFE, -1px -1px 0 #222;
-}
 
 html {
     body {
         margin: 0;
         padding: 0;
-        background: #CACACA;
+        background: #B8FFFF;
+        color: #007F7F;
+        position: relative;
+        font-family: helvetica, sans-serif;
     }
 }
 
-.text-area {
-  
+article {
+  margin: 3rem .1rem 0 .8rem;
+  float: left;
+  width: 73%;
+  h2 {
+    display: inline-block;
+    margin: 0 .5rem 0 4.5rem;
+  }
+  h3 {
+    margin: 0 15rem 0 1rem;
+    font-size: .5rem;
+
+  }
+  button {
+    float: right;
+    display: inline-block;
+    background: #007F7F;
+    color: #B8FFFF;
+    width: 8rem;
+    height: 2rem;
+    border: none;
+  }
+  p {
+    margin-left: 4.5rem;
+    padding-left: .5rem;
+    clear: both;
+    border-left: .1rem solid #007F7F;
+  }
+}
+
+aside {
+  margin: 3rem .5rem 0 .1rem;
+  float: right;
+  width: 23%;
+  border: solid .1rem black;
+  input {
+    width: 90%;
+    margin: .5rem;
+    font-size: 1.5rem;
+  }
+  textarea{
+    width: 90%;
+    margin: .5rem;
+    font-size: 1rem;
+  }
+
+  button {
+    display: block;
+    width: 95%;
+    height: 3rem;
+    border: none;
+    background: #007F7F;
+    color: #B8FFFF;
+    margin: .5rem;
+  }
+}
+
+
+
+.hide-content {
+  display: none;
+}
+
+.show-content {
+  display: inline-block;
 }
